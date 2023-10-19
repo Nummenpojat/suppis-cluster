@@ -8,7 +8,7 @@ const init = async (whatsappInterface, config) => {
     const app = express();
     app.use(bodyparser.json())
     app.post('/suppishook/send/:token/', async (req, res) => {
-        if (!req.body.message) {
+        if (!req.body.message || !req.body.recipient) {
             res.status(400);
             res.json(missingParams);
             return;
