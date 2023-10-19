@@ -1,7 +1,7 @@
 module.exports = {
     modules: [
-        require('../modules/websocket'),
-        require('../modules/webhook'),
+       // require('../modules/websocket'),
+        //require('../modules/webhook'),
         require('../modules/suppishook'),
         // Define custom modules:
         // require('../modules/custom/<name>.js'),
