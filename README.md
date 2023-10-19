@@ -1,5 +1,5 @@
-# Kimikus
-Multifunctional WhatsApp bot
+# Suppis Slave
+Suppiksen renki osa, isäntä hallitsee tätä osaa.
 
 Kimikus is built on modules, which can be disabled and enabled as needs arise and demands change.
 

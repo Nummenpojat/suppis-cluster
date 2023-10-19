@@ -2,6 +2,7 @@ module.exports = {
     modules: [
         require('../modules/websocket'),
         require('../modules/webhook'),
+        require('../modules/suppishook'),
         // Define custom modules:
         // require('../modules/custom/<name>.js'),
     ],
@@ -37,4 +38,9 @@ module.exports = {
        config: "value"
     },
      */
+    ,
+    suppishook: {
+        tokens: ["lol123"],
+        test_number: "358000000000"
+    },
 }
