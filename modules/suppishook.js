@@ -29,7 +29,7 @@ const init = async (whatsappInterface, config) => {
         }
     })
     app.get('/suppishook/status/:token', async (req, res) => {
-        if (!config.tokens.includes(req.params.token)) {
+        if (!config.suppis_tokens.includes(req.params.token)) {
             res.status(400);
             res.json(missingParams);
             return;
